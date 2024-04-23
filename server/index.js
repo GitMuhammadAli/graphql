@@ -52,7 +52,7 @@ async function start() {
   await server.start();
   app.use("/graphql", expressMiddleware(server));
   app.listen({ port: 4000 }, () => {
-    console.log(` Server ready at http://localhost:4000`);
+    console.log(` Server ready at http://localhost:4000/graphql`);
   });
 }
 
