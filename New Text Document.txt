@@ -1,3 +1,0 @@
-npm init
-npm add express
-npm install @apollo/server graphql
